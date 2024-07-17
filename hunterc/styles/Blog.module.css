@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between 100px;
+    align-items: center;
+    padding: 4rem;
+    min-height: 110vh;
+    margin-top: 100px;
+    justify-content: flex-start;
+  }
+
+  .styleforp{
+    max-width: 60vw;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .styleforh3{
+    text-align: center;
+    
+  }

@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+hunterc/node_modules
+hunterc/.pnp
+hunterc/.pnp.js
+hunterc/.yarn/install-state.gz
+
+# testing
+hunterc/coverage
+
+# next.js
+hunterc/.next/
+hunterc/out/
+
+# production
+hunterc/build
+
+# misc
+hunterc/.DS_Store
+hunterc/*.pem
+
+# debug
+hunterc/npm-debug.log*
+hunterc/yarn-debug.log*
+hunterc/yarn-error.log*
+
+# local env files
+hunterc/.env*.local
+
+# vercel
+hunterc/.vercel
+
+# typescript
+hunterc/*.tsbuildinfo
+hunterc/next-env.d.ts
